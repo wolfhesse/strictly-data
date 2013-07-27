@@ -1,0 +1,17 @@
+3 wurfserien
+========================================================
+
+```{r}
+wurfserie.1=sample(cbind(x=1,y=1:6),10)
+wurfserie.2=sample(cbind(x=1,y=1:6),10)
+wurfserie.3=sample(cbind(x=1,y=1:6),10)
+wurfserien=data.frame(wurfserie.1,wurfserie.2,wurfserie.3)
+summary(wurfserien)
+```
+
+You can also embed plots, for example:
+
+```{r fig.width=7, fig.height=6}
+plot(cars)
+```
+
