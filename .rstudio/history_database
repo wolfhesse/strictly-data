@@ -439,3 +439,95 @@
 1480337855105:doc=getURL(docurl)
 1480337982525:save(file="doc.html",list = doc)
 1480338000902:save(file="doc.html",list = "doc")
+1480338403574:library(RJSONIO)
+1480338403680:```
+1480338434547:library(RJSONIO)
+1480338434554:```
+1480338437249:library(RJSONIO)
+1480338437265:```
+1480338441284:task.block <- fromJSON('{"ok":0,"tasks":["nodejs debug","alles"]}')
+1480338441303:summary(task.block)
+1480338454061:plot(task.block)
+1480338536221:summary(cars)
+1480338536270:plot(cars)
+1480338619210:install.packages("benchmark")
+1480338845084:install.packages("rbenchmark")
+1480338856944:library(rbenchmark)
+1480338869705:library(data.table)
+1480338885721:install.packages("data.table")
+1480338990448:install.packages("plyr")
+1480339022044:library(plyr)
+1480339024865:df <- data.frame(x = c(1,2,3,4,5,6), index = c('a', 'a', 'b', 'b', 'c', 'c'))
+1480339040021:dt <- data.table(df)
+1480339052304:library(data.table)
+1480339053435:library(plyr)
+1480339055200:df <- data.frame(x = c(1,2,3,4,5,6), index = c('a', 'a', 'b', 'b', 'c', 'c'))
+1480339056060:dt <- data.table(df)
+1480339057417:plyr <- function() ddply(df, .(index), transform, z = x / sum(x))
+1480339060289:av <- function() ave(df$x, df$index, FUN = function(z) z/sum(z))
+1480339061231:t.apply <- function() unlist(tapply(df$x, df$index, function(x) x/sum(x)))
+1480339062125:l.apply <- function() unlist(lapply(split(df$x, df$index), function(x){x/sum(x)}))
+1480339063092:b.y <- function() unlist(by(df$x, df$index, function(x){x/sum(x)}))
+1480339077275:agg <- function() aggregate(df$x, list(df$index), function(x){x/sum(x)})
+1480339078227:d.t <- function() dt[, x/sum(x), by = index]
+1480339079318:library(rbenchmark)
+1480339081606:benchmark(plyr(), av(), t.apply(), l.apply(), b.y(), agg(), d.t(),
+1480339081607:replications = 1000,
+1480339081608:columns = c("test", "elapsed", "relative"),
+1480339081608:order = "elapsed")
+1480339109879:library(data.table)
+1480339109883:library(plyr)
+1480339109894:df <- data.frame(x = c(1,2,3,4,5,6), index = c('a', 'a', 'b', 'b', 'c', 'c'))
+1480339109900:dt <- data.table(df)
+1480339109907:plyr <- function() ddply(df, .(index), transform, z = x / sum(x))
+1480339109912:av <- function() ave(df$x, df$index, FUN = function(z) z/sum(z))
+1480339109916:t.apply <- function() unlist(tapply(df$x, df$index, function(x) x/sum(x)))
+1480339109920:l.apply <- function() unlist(lapply(split(df$x, df$index), function(x){x/sum(x)}))
+1480339109924:b.y <- function() unlist(by(df$x, df$index, function(x){x/sum(x)}))
+1480339109932:agg <- function() aggregate(df$x, list(df$index), function(x){x/sum(x)})
+1480339109935:d.t <- function() dt[, x/sum(x), by = index]
+1480339109939:library(rbenchmark)
+1480339109942:benchmark(plyr(), av(), t.apply(), l.apply(), b.y(), agg(), d.t(),
+1480339109943:replications = 1000,
+1480339109944:columns = c("test", "elapsed", "relative"),
+1480339109945:order = "elapsed")
+1480339820953:library(bitops)
+1480339845012:cksum(df$x)
+1480339847355:cksum(df$x)
+1480339854966:df$x
+1480339862382:df$index
+1480339928191:source('~/r20130726.004.bench.R')
+1480339948116:View(d.t)
+1480339948121:View(df)
+1480340004202:library(data.table)
+1480340004205:library(plyr)
+1480340004210:library(rbenchmark)
+1480340006419:df <- data.frame(x = c(1,2,3,4,5,6), index = c('a', 'a', 'b', 'b', 'c', 'c','d','e'))
+1480340019623:df <- data.frame(x = c(1,2,3,4,5,6,7,8), index = c('a', 'a', 'b', 'b', 'c', 'c','d','e'))
+1480340022015:dt <- data.table(df)
+1480340046395:dt.a
+1480340049685:dt.b
+1480340080608:rm(dt.a)
+1480340086029:d
+1480340087792:d.t
+1480340121424:df <- data.frame(x = c(1,2,3,4,5,6,7,8), index = c('a', 'a', 'b', 'b', 'c', 'c','d','e'),control=c(1:8))
+1480340128406:dt <- data.table(df)
+1480340129837:plyr <- function() ddply(df, .(index), transform, z = x / sum(x))
+1480340130354:av <- function() ave(df$x, df$index, FUN = function(z) z/sum(z))
+1480340130746:t.apply <- function() unlist(tapply(df$x, df$index, function(x) x/sum(x)))
+1480340131132:l.apply <- function() unlist(lapply(split(df$x, df$index), function(x){x/sum(x)}))
+1480340131618:b.y <- function() unlist(by(df$x, df$index, function(x){x/sum(x)}))
+1480340132137:agg <- function() aggregate(df$x, list(df$index), function(x){x/sum(x)})
+1480340132701:d.t <- function() dt[, x/sum(x), by = index]
+1480340133314:benchmark(plyr(), av(), t.apply(), l.apply(), b.y(), agg(), d.t(),
+1480340133316:replications = 1000,
+1480340133317:columns = c("test", "elapsed", "relative"),
+1480340133317:order = "elapsed")
+1480340160974:benchmark(plyr(), av(), t.apply(), l.apply(), b.y(), agg(), d.t(),
+1480340160976:replications = 10,
+1480340160977:columns = c("test", "elapsed", "relative"),
+1480340160988:order = "elapsed")
+1480340172355:benchmark(plyr(), av(), t.apply(), l.apply(), b.y(), agg(), d.t(),
+1480340172356:replications = 100,
+1480340172356:columns = c("test", "elapsed", "relative"),
+1480340172357:order = "elapsed")

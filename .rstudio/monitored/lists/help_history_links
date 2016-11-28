@@ -1,2 +1,4 @@
 help/library/graphics/html/plot.html,R: Generic X-Y Plotting
 help/library/base/html/sample.html,R: Random Samples and Permutations
+help/library/bitops/html/00Index.html,R: Bitwise Operations
+help/library/bitops/html/cksum.html,R: Compute Check Sum
