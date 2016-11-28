@@ -3,16 +3,10 @@ zwoelf auf dreizehn, ein paar beispiele
 
 ```{r}
 sort(sample.int(13,12))
-sort(sample.int(13,12))
-sort(sample.int(13,12))
-sort(sample.int(13,12))
 ```
 
 summaries
 
 ```{r}
-summary(sort(sample.int(100,99)))
-summary(sort(sample.int(100,99)))
-summary(sort(sample.int(100,99)))
 summary(sort(sample.int(100,99)))
 ```
