@@ -1,3 +1,6 @@
 .Rproj.user
 .Rhistory
 .RData
+data.d/
+output.d/
+.bash_history

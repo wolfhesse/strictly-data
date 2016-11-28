@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "\nlibrary(\"RJSONIO\", lib.loc=\"/home/alpha/R/i686-pc-linux-gnu-library/2.15\")\nlibrary(\"RCurl\", lib.loc=\"/home/alpha/R/i686-pc-linux-gnu-library/2.15\")\ntext=eins=topics=docs=c()\ntext=getURL(\"http://service.yasssu.com/proxy_topic/?hitzewelle\")\neins=fromJSON(text)\ndocs=eins$response$docs\nfor(doc in docs[]) topics=append(topics,doc$topics)\nstopics=sort(topics)\nTopicDataFrame = data.frame(topics=stopics)\nTopicTable = table(TopicDataFrame)\nbarplot(sort(TopicTable,decreasing=TRUE)[1:20],horiz=TRUE,cex.names=.45, cex.axis=.2,las=1)\n",
+    "created" : 1480337603601.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3514275593",
+    "id" : "A6B9850C",
+    "lastKnownWriteTime" : 1409236630,
+    "last_content_update" : 1409236630,
+    "path" : "~/rel.r.d/r20130724.1.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 11,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

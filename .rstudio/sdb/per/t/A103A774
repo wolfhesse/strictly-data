@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "# with limit\ncur=mongo.find(mongo,\"search.data_dump\",limit=1000L)\nwhile(mongo.cursor.next(cur))\n  write(mongo.bson.to.list(mongo.cursor.value(cur))$root,\"roots.lst\",append=TRUE)\n\n# without limit\ncur=mongo.find(mongo,\"search.data_dump\")\nwhile(mongo.cursor.next(cur))\n  write(mongo.bson.to.list(mongo.cursor.value(cur))$root,\"roots.lst\",append=TRUE)",
+    "created" : 1480337569888.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3046027631",
+    "id" : "A103A774",
+    "lastKnownWriteTime" : 1409236630,
+    "last_content_update" : 1409236630,
+    "path" : "~/rel.r.d/r20130725.blippex.mongo.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
