@@ -18,3 +18,4 @@ benchmark(plyr(), av(), t.apply(), l.apply(), b.y(), agg(), d.t(),
           replications = 1000, 
           columns = c("test", "elapsed", "relative"),
           order = "elapsed")
+
