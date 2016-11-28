@@ -1,4 +1,15 @@
-help/library/graphics/html/plot.html,R: Generic X-Y Plotting
-help/library/base/html/sample.html,R: Random Samples and Permutations
-help/library/bitops/html/00Index.html,R: Bitwise Operations
-help/library/bitops/html/cksum.html,R: Compute Check Sum
+help/library/utils/html/read.table.html,R: Data Input
+help/library/data.table/html/assign.html,R: Assignment by reference
+help/library/utils/html/edit.data.frame.html,R: Edit Data Frames and Matrices
+help/library/utils/html/edit.html,R: Invoke a Text Editor
+help/library/utils/html/dataentry.html,R: Spreadsheet Interface for Entering Data
+help/library/base/html/save.html,R: Save R Objects
+help/library/base/html/load.html,R: Reload Saved Datasets
+help/library/data.table/html/fwrite.html,R: Fast CSV writer
+help/doc/html/Search?results=1,R: Search Results
+help/doc/html/Search?pattern=%5B%5B%5D%5D&title=1&keyword=1&alias=1,R: Search Results
+help/library/base/html/array.html,R: Multi-way Arrays
+help/library/base/html/dimnames.html,R: Dimnames of an Object
+help/library/base/html/lapply.html,R: Apply a Function over a List or Vector
+help/doc/home/,Home
+help/doc/manual/R-intro.html,An Introduction to R

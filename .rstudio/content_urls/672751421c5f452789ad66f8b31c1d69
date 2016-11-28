@@ -1,0 +1,14 @@
+Vignettes in package ‘data.table’:
+
+datatable-reshape       Efficient reshaping using data.tables (source,
+                        html)
+datatable-faq           Frequently asked questions (source, html)
+datatable-intro         Introduction to data.table (source, html)
+datatable-keys-fast-subset
+                        Keys and fast binary search based subset
+                        (source, html)
+datatable-reference-semantics
+                        Reference semantics (source, html)
+datatable-secondary-indices-and-auto-indexing
+                        Secondary indices and auto indexing (source,
+                        html)

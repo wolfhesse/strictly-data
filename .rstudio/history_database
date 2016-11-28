@@ -531,3 +531,387 @@
 1480340172356:replications = 100,
 1480340172356:columns = c("test", "elapsed", "relative"),
 1480340172357:order = "elapsed")
+1480340914193:load("~/dumpfile.dmp.rda")
+1480340919721:View(b.y)
+1480340926179:View(d.t)
+1480340938502:View(r20130725.ds.uri.1)
+1480340996750:E
+1480341001923:eval(E)
+1480341013887:response
+1480341023390:rm response
+1480341028388:rm(response)
+1480341034482:scities
+1480341055837:r.fn.sample_cities <- sample(cities,5)
+1480341061828:r.fn.sample_cities()
+1480341073052:r.fn.sample_cities <- function sample(cities,5)
+1480341092110:View(av)
+1480341111358:r.fn.sample_cities <- function() sample(cities,5)
+1480341116432:r.fn.sample_cities()
+1480341119485:r.fn.sample_cities()
+1480341120746:r.fn.sample_cities()
+1480341150740:View(r.fn.sample_cities)
+1480341223181:View(r.fn.sample_cities)
+1480341253227:View(r.fn.sample_cities)
+1480341264228:rm(r.fn.sample_cities())
+1480341269668:rm(r.fn.sample_cities
+1480341272341:)
+1480341287742:r.fn.sample_cities <- function() sample(cities,5)
+1480341290689:View(r.fn.sample_cities)
+1480341339499:scities=r.fn.sample_cities()
+1480341344623:scities
+1480341346694:scities=r.fn.sample_cities()
+1480341348127:scities
+1480341357368:c(scities)
+1480341409848:maply(scities,.fun=toupper())
+1480341413737:maply(scities,.fun=toupper
+1480341415839:)
+1480341427436:maply(scities,.fun=toupper)
+1480341431732:maply(scities,.fun=tolower)
+1480341456186:maply(1:5,.fun=r.fn.sample_cities)
+1480341467322:maply(c(1:5),.fun=r.fn.sample_cities)
+1480341483628:maply(c(1:5),.fun="r.fn.sample_cities")
+1480341509317:maply(c(1:5))
+1480341541309:maply(c(1:5),.fun=int)
+1480341547792:maply(c(1:5),.fun=sum)
+1480341555255:sum()
+1480341569716:maply(c(1:5),.fun=summarise)
+1480341581537:maply(c(1:5),.fun=summarize)
+1480341589302:summarise(c(1:5))
+1480341598210:summary(c(1:5))
+1480341602523:summary(c(1:50))
+1480341607211:summary(c(1:10))
+1480341609862:summary(c(1:100))
+1480341616824:summary(c(0:100))
+1480341622441:c(0:100)
+1480341629310:sum(c(0:100))
+1480341651265:?data.table
+1480341689051:?vignette()
+1480341697335:?vignette
+1480341714279:vignette(data.table)
+1480341725390:vignette(package='data.table')
+1480341749168:?datatable-intro
+1480341808612:vignette("datatable-intro")
+1480341953199:flights=fread("data.d/flights14.csv")
+1480341962195:flights
+1480341995712:df.flights=data.frame(flights)
+1480342001329:View(df.flights)
+1480342058523:summary(flights)
+1480342080927:summary(flights$air_time)
+1480342105144:plot(flights$tailnum,flights$air_time)
+1480342130918:count(flights)
+1480342193119:summary(flights)
+1480342219793:desc(flights)
+1480342279654:count(flights$air_time)
+1480342293747:count(flights$carrier)
+1480342307811:plot(flights$carrier)
+1480342316788:plot(flights$carrier,flights$carrier)
+1480342322393:?plot
+1480342350446:require(stats)
+1480342355226:plot(cars)
+1480342360797:plot(flights)
+1480342557179:flights<-fread("data.d/flights14.csv")
+1480342564941:?fread
+1480342570281:?freads
+1480342575178:?csv
+1480342591906:vignette("datatable-intro")
+1480342642996:library(utils)
+1480342656211:vignette(fread)
+1480342659422:fread
+1480342683624:flights=read.csv("data.d/flights14.csv")
+1480342718820:avg(flights$air_time)
+1480342726576:average(flights$air_time)
+1480342730188:?average
+1480342735092:??average
+1480342746439:library(stats)
+1480342749429:??average
+1480342753168:?average
+1480342775311:stats::ave(flights$air_time)
+1480342801866:summary(flights$air_time)
+1480342838227:mx=c(flights$carrier,flights$air_time)
+1480342860824:mx=[flights$carrier,flights$air_time]
+1480342870438:mx=(flights$carrier,flights$air_time)
+1480342876037:mx=(flights$carrier flights$air_time)
+1480342885219:mx=data.frame(flights$carrier, flights$air_time)
+1480342900936:plot(mx)
+1480344593820:sod
+1480344599291:sod=data.frame()
+1480344615540:sod$TopicDataFrame=TopicDataFrame
+1480344642746:View(sod)
+1480344681870:sod=data.frame(TopicDataFrame,TopicTable)
+1480344696077:sod=data.table
+1480344698101:sod=data.table()
+1480344704211:library(data.table)
+1480344711715:sod=data.table()
+1480344717828:sod[1]
+1480344724793:sod[1]=TopicDataFrame
+1480344768206:sod:=c(1:5)
+1480344784184:help(":=")
+1480344855765:??edit
+1480344860890:edit.data.frame
+1480344863948:edit.data.frame()
+1480344870152:??edit.data.frame
+1480344882887:library(utils)
+1480344888366:edit.data.frame
+1480344898067:edit(sod)
+1480344914343:sod=data.table()
+1480344917673:edit(sod)
+1480344959214:data.entry(sod)
+1480345015848:dataentry(sod)
+1480345024178:dataentry(mx)
+1480345031960:data.entry(mx)
+1480345041785:data.entry(flights)
+1480345057200:csod=c()
+1480345074131:append(csod,flights)
+1480345089975:csod
+1480345120656:append(csod,values = cities)
+1480345123606:csod
+1480345141632:csod$cities=cities
+1480345162089:csod$doc=doc
+1480345177569:csod$docs=docs
+1480345194328:csod$wurfserien=wurfserien
+1480345208152:rm(wurfserien, doc, docs, cities)
+1480345221430:rm(eins)
+1480345237155:csod(0)
+1480345243153:csod[0]
+1480345246473:csod[1]
+1480345250258:csod[2]
+1480345258768:summary(csod)
+1480345272917:csod$a=a
+1480345274729:rm(a)
+1480345279437:csod$a2=a2
+1480345280977:rm(a2)
+1480345287023:rm(cppDiag)
+1480345300846:csod$docurl=docurl
+1480345303761:rm(docurl)
+1480345310588:summary(csod)
+1480345313543:rm(sod)
+1480345328104:dt.csod=data.table(csod)
+1480345379898:csod$stopics=stopics
+1480345385094:rm(stopics)
+1480345396153:csod$topics=topics
+1480345398976:rm(topics)
+1480345403673:csod$topics
+1480345409500:csod$topics
+1480345416293:summary(csod$topics)
+1480345420606:summary(csod$stopics)
+1480345430454:csod$topics[1:4]
+1480345443425:sample(csod$topics,10)
+1480345445628:sample(csod$topics,10)
+1480345448126:sample(csod$topics,10)
+1480345465369:rm(diag)
+1480345470087:rm(ext)
+1480345481733:csod$response=response
+1480345484432:rm(response)
+1480345494582:csod$demo.1.response=csod$response
+1480345512005:csod$demo.2.wurfserien=csod$wurfserien
+1480345534826:csod$demo.3.docs=csod$docs
+1480345541824:rm(csod$docs)
+1480345553990:rm("csod$docs")
+1480345568923:csod$docs=NULL
+1480345575272:summary(csod)
+1480345587796:csod$demo
+1480345595979:csod$docs
+1480345598968:csod$docs 2
+1480345601449:csod$docs2
+1480345615849:csod$scities=scities
+1480345620625:rm(scities)
+1480345633264:csod$TopicTable=TopicTable
+1480345637972:rm(TopicTable)
+1480345650120:csod$TopicTable
+1480345660349:summary(csod$TopicTable)
+1480345670023:summary(csod$TopicTable$rows)
+1480345677963:summary(csod$TopicTable)
+1480345701182:sample(csod$TopicTable,3)
+1480345713981:sample(csod$TopicTable[0])
+1480345721418:csod$TopicTable[1]
+1480345723812:csod$TopicTable[2]
+1480345756920:colnames(csod$TopicTable)
+1480345779370:row.names(csod$TopicTable)
+1480345801125:colnames(csod)
+1480345810503:colnames(csod$topics)
+1480345826017:csod$zwei=zwei
+1480345830096:rm(zwei)
+1480345881386:View(xx)
+1480345928442:csod$CitiesF=CitiesF
+1480345932996:rm(CitiesF)
+1480345968710:save(csod,file='data.d/csod.saved')
+1480346033272:?save
+1480346043558:save.image()
+1480346067939:save(csod,file='data.d/csod.RData')
+1480346092321:?load
+1480346236235:csod$TopicDataFrame=TopicDataFrame
+1480346240573:rm(TopicDataFrame)
+1480346245918:save.image()
+1480346252346:rm dt.a
+1480346254635:rm(dt.a)
+1480346265274:rm(dt.csod)
+1480346272251:dt.csod=data.table(csod)
+1480346279465:library(data.table)
+1480346281958:dt.csod=data.table(csod)
+1480346286932:View(dt.csod)
+1480346366683:df.csod=data.frame(csod)
+1480346385104:csod$flights=flights
+1480346389089:rm(flights)
+1480346393997:rm(mx)
+1480346397879:xx
+1480346400818:rm(xx)
+1480346405998:r20130725.ds.uri.1
+1480346418899:rm(dt.csod)
+1480346422373:save.image()
+1480346468763:load("~/all.RData")
+1480346492708:load("~/.RData")
+1480346565203:View(r20130725.ds.uri.1)
+1480346583631:r20130725.ds.uri.1$uri[1]
+1480346597894:r20130725.ds.uri.1$uri
+1480346619556:??csv
+1480346663999:fwrite(r20130725.ds.uri.1,file='data.d/r20130725.ds.uri.1.csv')
+1480346677309:save.image()
+1480347329217:r20130725.ds.uri.1$uri
+1480347335504:r20130725.ds.uri.1$uri2=c()
+1480347350026:r20130725.ds.uri.1$uri3=c()
+1480347355404:r20130725.ds.uri.1$uri3=c(1,2)
+1480347364215:r20130725.ds.uri.1$uri3=NULL
+1480347377546:r20130725.ds.uri.1$uri3:=1
+1480347382467:r20130725.ds.uri.1$uri3=1
+1480347387112:r20130725.ds.uri.1$uri3=null
+1480347394646:r20130725.ds.uri.1$uri3=NULL
+1480347398820:save.image
+1480347412294:save.image()
+1480347416871:names(r20130725.ds.uri.1)
+1480347420449:names(csod)
+1480347470748:summary
+1480347470751:(csod$flights)
+1480347490584:summary(csod$flights)
+1480347507028:summary(csod$flights$carrier)
+1480349791202:plot(cars)
+1480351010588:install.packages("elastic")
+1480351282705:library("elastic", lib.loc="/usr/local/lib/R/site-library")
+1480351330318:connect(es_host = 'es.wolfspool.chickenkiller.com', es_port = 9200)
+1480351385144:Search(index='cities', size = 5)
+1480351460045:connect(es_host = "core.wolfspool.chickenkiller.com")
+1480351463701:Search(index='cities', size = 5)
+1480351473167:Search(index='cities', size = 5)$hits$hits
+1480351496906:connect(es_host = "core.wolfspool.chickenkiller.com",es_port = 9200)
+1480351500189:Search(index='cities', size = 5)$hits$hits
+1480351520251:connect(es_host = "es.wolfspool.chickenkiller.com",es_port = 80)
+1480351522206:Search(index='cities', size = 5)$hits$hits
+1480351532563:Search(index='cities', size = 5)
+1480351548574:res=Search(index='cities', size = 5)
+1480351563738:res=Search(index='cities', size = 5)$hits
+1480351569976:res=Search(index='cities', size = 5)$hits$hits
+1480351597699:res
+1480351602171:summary(res)
+1480351613038:res[0]
+1480351623050:res=Search(index='cities', size = 5)$hits
+1480351630706:res$hits
+1480351725702:dt=data.table(res)
+1480351731628:View(dt)
+1480351745285:res=Search(index='cities', size = 5)$hits$hits
+1480351748858:dt=data.table(res)
+1480351772684:dt$res[[1]]
+1480351785469:dt$res[[1]]$`_source`$city
+1480351789243:dt$res[[2]]$`_source`$city
+1480351792893:dt$res[[3]]$`_source`$city
+1480351830124:res=Search(index='cities', size = 5, q='wien')$hits$hits
+1480351840311:dt=data.table(res)
+1480351877649:res=Search(index='cities', size = 5, q='wien', fields='city,country')$hits$hits
+1480351886695:dt=data.table(res)
+1480351930738:dt=data.table(Search(index='cities', size = 5, q='wien', fields='city,country')$hits$hits)
+1480351953490:dt=data.table(Search(index='cities', size = 5, q='wiener', fields='city,country')$hits$hits)
+1480351969821:dt=data.table(Search(index='cities', size = 5, q='washing', fields='city,country')$hits$hits)
+1480351985103:dt=data.table(Search(index='cities', size = 5, q='washing*', fields='city,country')$hits$hits)
+1480352003430:dt
+1480352006880:dt[]
+1480352012220:dt[[]]
+1480352016396:dt[]
+1480352022797:dt[]$V1
+1480352051175:jsonlite::toJSON(dt)
+1480352095416:jsonlite::toJSON(dt,pretty = TRUE)
+1480352117263:jsonlite::toJSON(dt,pretty = TRUE)
+1480352180227:dt=data.table(Search(index='cities', size = 5, q='washing*', fields='city,country')$hits$hits)
+1480352188482:dt=data.table(Search(index='cities', size = 50, q='washing*', fields='city,country')$hits$hits)
+1480352194786:jsonlite::toJSON(dt,pretty = TRUE)
+1480352229717:dt=data.table(Search(index='cities', size = 50, q='wien*', fields='city,country')$hits$hits)
+1480352234497:jsonlite::toJSON(dt,pretty = TRUE)
+1480352277870:dt$V1[[]]
+1480352282748:dt$V1[]
+1480352290655:dt$V1[][]
+1480352296902:dt$V1[][]$fields
+1480352302738:dt$V1[][]$fields$country
+1480352305980:dt$V1[]$fields$country
+1480352309524:dt$V1$fields$country
+1480352316307:??iter
+1480352327441:??iterate
+1480352365625:mapply(dt$V1,tolower)
+1480352389220:lapply(dt$V1,'tolower')
+1480352398951:lapply(dt$V1,'toupper')
+1480352423513:??flat
+1480352432415:flatten(dt)
+1480352441228:jsonlite::flatten(dt)
+1480352451570:jsonlite::flatten(dt$V1)
+1480352460094:jsonlite::flatten(dt$V1[])
+1480352468909:unlist(dt$V1)
+1480352481824:ftable(dt)
+1480352487506:ftable(dt$V1)
+1480352498510:unlist(dt)
+1480352504030:unlist(dt$V1)
+1480352512525:unlist(dt$V1)$_index
+1480352524819:unlist(dt$V1)$cities
+1480352560134:as.array(dt$V1)
+1480352567936:as.array(dt$V1)[22]
+1480352573762:as.array(dt$V1)[23]
+1480352576334:as.array(dt$V1)[22]
+1480352631618:letters
+1480352636971:as.array(letters)
+1480352648592:as.array(dt$V1)
+1480352902372:ftable(dt)
+1480352910353:ftable(dt$V1)
+1480353044277:Search(index='cities', size = 50, q='wien*', fields='city,country')$hits$hits
+1480353068843:res=Search(index='cities', size = 50, q='wien*', fields='city,country')
+1480353114887:sapply(res$hits$hits,"[[",c('fields','country'))
+1480353126674:sapply(res$hits$hits,"[[",c('fields','city'))
+1480353139411:?sapply
+1480353190094:sapply(res$hits$hits)
+1480353195414:sapply(res$hits$hits,"[[")
+1480353205158:sapply(res$hits$hits,"[[",c('fields'))
+1480353212871:sapply(res$hits$hits,"[[",c('fields','city'))
+1480353222165:sapply(res$hits$hits,"",c('fields','city'))
+1480353231793:mapply(res,"[[")
+1480353246980:mapply(res$hits$hits,"[[")
+1480353257488:sapply(res$hits$hits,"[[")
+1480353266758:sapply(res$hits$hits,"[[",'city')
+1480353276737:sapply(res$hits$hits,"[[",'$city')
+1480353291835:sapply(res$hits$hits,"[[",c('city','country'))
+1480353301239:sapply(res$hits$hits,"[[",c('fields','country'))
+1480353307897:sapply(res$hits$hits,"[[",c('fields'))
+1480353322746:sapply(res$hits$hits,"[[",c('fields',c('city')))
+1480353327765:sapply(res$hits$hits,"[[",c('fields',c('city','country')))
+1480353333594:sapply(res$hits$hits,"[[",c('fields')
+1480353336607:)
+1480353382732:vapply(res$hits$hits,"[[",'fields')
+1480353386786:vapply(res$hits$hits,"[[",'$fields')
+1480353392702:vapply(res$hits$hits,"[[",c('$fields')
+1480353395178:)
+1480353402802:apply(res$hits$hits,"[[",c('$fields'))
+1480353407047:apply(res$hits$hits,"[[",c('fields'))
+1480353413353:lapply(res$hits$hits,"[[",c('fields'))
+1480353432550:lapply(res$hits$hits,"[[",c('eval'))
+1480353437038:lapply(res$hits$hits,"[[",c('fields'))
+1480353442803:lapply(res$hits$hits,"[[",c('fields$country'))
+1480353447266:lapply(res$hits$hits,"[[",c('country'))
+1480353454400:lapply(res$hits$hits,"[[",c('fields$country'))
+1480353458086:lapply(res$hits$hits,"[[",c('fields'))
+1480353465853:lapply(res$hits$hits,"[[",c('fields','country'))
+1480353471815:lapply(res$hits$hits,"[[",c('fields','country',[1]))
+1480353477734:lapply(res$hits$hits,"[[",c('fields','country',"[["))
+1480353480942:lapply(res$hits$hits,"[[",c('fields','country',"[1"))
+1480353483523:lapply(res$hits$hits,"[[",c('fields','country',"[1]"))
+1480353486393:lapply(res$hits$hits,"[[",c('fields','country',"[0]"))
+1480353489873:lapply(res$hits$hits,"[[",c('fields','country'))
+1480353502955:summary(lapply(res$hits$hits,"[[",c('fields','country')))
+1480353518157:plot(lapply(res$hits$hits,"[[",c('fields','country')))
+1480353528074:plot(c(1:50),lapply(res$hits$hits,"[[",c('fields','country')))
+1480353556833:plot(lapply(res$hits$hits,"[[",c('fields','country')),c(1:50))
+1480353938941:ujnclass(dt)
+1480353942713:unclass(dt)
+1480356081851:xxxxxxxxxxxxzzzzzzzzzzzzzzzzzzzxxzzzzzzzzzzzzzcxxxxxxxxxxxxxxxxx

@@ -8,3 +8,6 @@ git fetch
 git fetch master
 git fetch origin
 exit
+git branch
+git fetch
+exit
