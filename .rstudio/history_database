@@ -1296,3 +1296,165 @@
 1480412110625:pfile=fread('data.d/products.json')
 1480412117641:??fread
 1480412454460:library("RJSONIO", lib.loc="/usr/local/lib/R/site-library")
+1480416670176:??fread
+1480416783674:library(utils)
+1480416788487:?fread
+1480416793610:??fread
+1480416960518:con=file("baseline.d/products.json","r")
+1480417008676:products=jsonlite::fromJSON(con)
+1480417088628:con
+1480417121902:library("RJSONIO", lib.loc="/usr/local/lib/R/site-library")
+1480417210727:s1=c()
+1480417239716:s1$products=fromJSON("baseline.d/products.json")
+1480417306708:s1$products=fromJSON("baseline.d/products.json")$products
+1480417336703:df.products=data.frame(s1$products)
+1480417357741:s1$products
+1480417389645:s1$products[1]
+1480417410732:s1$products[1]$id
+1480417428252:s1$products[[1]]
+1480417440027:s1$products[[1]]$id
+1480417449037:s1$products[[2]]$id
+1480417460403:count(s1$products)
+1480417473896:length(s1$products)
+1480417495117:v=(1:length(s1$products))
+1480417515397:s1$products[v]
+1480417523893:s1$products[v]$id
+1480417527989:s1$products[v]
+1480417546807:v3=(1:3)
+1480417559916:s1$products[v3]
+1480417573149:p3=s1$products[v3]
+1480417609921:p3=s1$products[[v3]]
+1480417628961:p3=s1$products[v3]
+1480417638484:p3[1]
+1480417743140:s1$products=fromJSON("baseline.d/products.json")$products[]
+1480417789530:s1$products
+1480417832718:s1$products[1]
+1480417860534:p1=s1$products[1]
+1480417886301:p1=s1$products[1][1]
+1480417917851:p1=s1$products[0][1]
+1480417937607:p1=s1$products[[1]]
+1480417948051:p1=s1$products[[0]]
+1480417960408:p1=s1$products[[]]
+1480417970476:p1=s1$products[[0]]
+1480417973448:p1=s1$products[[1]]
+1480417993716:rm(p1)
+1480417999151:rm(p3)
+1480418010209:rm(v,v3)
+1480418019020:p1=s1$products[[1]]
+1480418050890:p1$title
+1480418059056:p1$id
+1480418073705:body_html
+1480418078208:cd(s1)
+1480418087320:??scope
+1480418136474:p1$variants
+1480418147440:summary(p1)
+1480418179278:library(rethinker)
+1480418249940:cn=openConnection(host="rethinkdb.wolfspool.chickenkiller.com",port=28015)
+1480418420654:r()$db("test")$table("scratchpad")$insert(p1,conflict="update",return_changes=TRUE)$run(cn)
+1480418443720:r()$db("test")$table("scratchpad")$insert(list(p1),conflict="update",return_changes=TRUE)$run(cn)
+1480418451674:cn=openConnection(host="rethinkdb.wolfspool.chickenkiller.com",port=28015)
+1480418457435:r()$db("test")$table("scratchpad")$insert(list(p1),conflict="update",return_changes=TRUE)$run(cn)
+1480418475226:cn=openConnection(host="rethinkdb.wolfspool.chickenkiller.com",port=28015)
+1480418524892:r()$db("test")$table("scratchpad")$insert(list(id=p1$id,prod=p1,mode="manual"),conflict="update",return_changes=TRUE)$run(cn)
+1480418545681:r()$db("test")$table("scratchpad")$insert(list(id=p1$id,prod=toJSON(p1),mode="manual"),conflict="update",return_changes=TRUE)$run(cn)
+1480418559276:toJSON(p1)
+1480418606190:r()$db("test")$table("scratchpad")$insert(list(id=p1$id,prod=toJSON(p1),mode="manual"),conflict="update",return_changes=TRUE)$run(cn)
+1480418615817:cn=openConnection(host="rethinkdb.wolfspool.chickenkiller.com",port=28015)
+1480418630250:r()$db("test")$table("scratchpad")$insert(list(id=p1$id,prod_json=toJSON(p1),mode="manual"),conflict="update",return_changes=TRUE)$run(cn)
+1480418819250:d2<-function() 1
+1480418827851:d2
+1480418836726:d2()
+1480418848537:d1()
+1480418857756:r()$db("test")$table("scratchpad")$insert(
+1480418857758:list(
+1480418857761:id_previous="779",
+1480418857763:stuff=list(who="cares",extended='yes'),
+1480418857765:mode="manual"
+1480418857767:),
+1480418857769:conflict="update",
+1480418857770:return_changes=TRUE
+1480418857771:)$run(cn)
+1480418873530:d1<-function()  r()$db("test")$table("scratchpad")$insert(
+1480418873532:list(
+1480418873535:id_previous="779",
+1480418873537:stuff=list(who="cares",extended='yes'),
+1480418873539:mode="manual"
+1480418873541:),
+1480418873542:conflict="update",
+1480418873544:return_changes=TRUE
+1480418873546:)$run(cn)
+1480418885293:d2()
+1480418890617:d1()
+1480418930042:d0<- function() cn=openConnection(host="rethinkdb.wolfspool.chickenkiller.com",port=28015)
+1480418942634:rm(cn)
+1480418951131:View(d0)
+1480418961801:d0()
+1480418997531:d0<- function() return cn=openConnection(host="rethinkdb.wolfspool.chickenkiller.com",port=28015)
+1480419021772:d0<- function(cn) cn=openConnection(host="rethinkdb.wolfspool.chickenkiller.com",port=28015)
+1480419030795:d0()
+1480419044740:d0(cn)
+1480419047488:cn
+1480419052939:cn=c()
+1480419056905:d0()
+1480419060386:cn
+1480419065624:d0(cn)
+1480419069734:cn
+1480419099509:d0<- function() cn=openConnection(host="rethinkdb.wolfspool.chickenkiller.com",port=28015); return cn;
+1480419111690:d0<- function() cn=openConnection(host="rethinkdb.wolfspool.chickenkiller.com",port=28015); return(cn);
+1480419144312:d0<- function(){ cn=openConnection(host="rethinkdb.wolfspool.chickenkiller.com",port=28015); return(cn);}
+1480419153876:d0()
+1480419180602:cn=d0()
+1480419196267:d1()
+1480419280751:d3<-function() r()$db("test")$table("products")$insert(p1,conflict="update",return_changes=TRUE)$run(cn)
+1480419290282:cn=d0()
+1480419298154:d3()
+1480419323080:p1
+1480419412848:d3<-function() r()$db("test")$table("products")$insert(
+1480419412850:list(id=p1$id,
+1480419412852:title=p1$title,
+1480419412853:body_html=p1$body_html,
+1480419412855:handle=p1$handle)
+1480419412856:,conflict="update",return_changes=TRUE)$run(cn)
+1480419420629:d3()
+1480419432092:cn=d0()
+1480419439735:d3()
+1480419465373:cn=d0()
+1480419467445:d3()
+1480419606658:sapply(s1$products,function(x){p1=x;d3()})
+1480419718529:sapply(s1$products,function(x){d4(x)})
+1480419764615:,conflict="update",return_changes=TRUE)$run(cn)
+1480419768594:d4<-function(p1) r()$db("test")$table("products")$insert(
+1480419768596:list(id=p1$id,
+1480419768598:title=p1$title,
+1480419768599:body_html=p1$body_html,
+1480419768601:handle=p1$handle)
+1480419768603:,conflict="update",return_changes=TRUE)$run(cn)
+1480419783136:cn=d0()
+1480419802909:sapply(s1$products,d4)
+1480419935133:d0<- function(){ cn=openConnection(host="rethinkdb.wolfspool.chickenkiller.com",port=28015); return(cn);}
+1480419935141:d1<-function()  r()$db("test")$table("scratchpad")$insert(
+1480419935143:list(
+1480419935144:id_previous="779",
+1480419935145:stuff=list(who="cares",extended='yes'),
+1480419935147:mode="manual"
+1480419935148:),
+1480419935149:conflict="update",
+1480419935151:return_changes=TRUE
+1480419935152:)$run(cn)
+1480419935155:d2<-function() 1
+1480419935157:d3<-function() r()$db("test")$table("products")$insert(
+1480419935159:list(id=p1$id,
+1480419935160:title=p1$title,
+1480419935162:body_html=p1$body_html,
+1480419935164:handle=p1$handle)
+1480419935165:,conflict="update",return_changes=TRUE)$run(cn)
+1480419935169:d4<-function(p1) r()$db("test")$table("products")$insert(
+1480419935171:list(id=p1$id,
+1480419935172:title=p1$title,
+1480419935174:body_html=p1$body_html,
+1480419935176:handle=p1$handle)
+1480419935177:,conflict="update",return_changes=TRUE)$run(cn)
+1480419945653:cn=d0()
+1480419957235:library('rethinker')
+1480419962678:cn=d0()
+1480419973938:sapply(s1$products,d4)

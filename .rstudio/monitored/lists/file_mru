@@ -1,5 +1,6 @@
-~/data.d/products.json
 ~/r20161129.tinker.rethinker.R
+~/baseline.d/products.json
+~/data.d/products.json
 ~/rel.r.d/r20130724.1.R
 ~/urlpattern.R
 ~/tt.text.json
@@ -12,4 +13,3 @@
 ~/r2kd727.stat.training.files.Rmd
 ~/r2kd727.stat.smp.1.Rmd
 ~/r2kd727.r.scratch.barplots.R
-~/r2kd727.r.scratch.1.R
