@@ -9,7 +9,7 @@ tt$url.orig="http://service.yasssu.com/proxy_topic/?hitzewelle"
 tt$url='http://192.168.0.15:5984/sim_topics/573c235a53053810c366ac0166000b6d'
 
 tt$text=getURL(tt$url)
-
+write(tt$text,file="tt.text.json")
 tt$eins=fromJSON(tt$text)
 
 

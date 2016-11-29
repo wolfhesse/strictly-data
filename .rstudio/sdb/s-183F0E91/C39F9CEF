@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "r()$db(\"test\")$table(\"scratchpad\")$insert(\n  list(\n    id_previous=\"779\",\n    stuff=list(who=\"cares\",extended='yes'),\n    mode=\"manual\"\n  ),\n  conflict=\"update\",\n  return_changes=TRUE\n)$run(cn)\n",
+    "created" : 1480410506545.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "138830421",
+    "id" : "C39F9CEF",
+    "lastKnownWriteTime" : 1480411202,
+    "last_content_update" : 1480411528340,
+    "path" : "~/r20161129.tinker.rethinker.R",
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

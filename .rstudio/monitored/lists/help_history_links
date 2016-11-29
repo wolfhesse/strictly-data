@@ -1,4 +1,3 @@
-help/library/utils/html/edit.data.frame.html,R: Edit Data Frames and Matrices
 help/library/utils/html/edit.html,R: Invoke a Text Editor
 help/library/utils/html/dataentry.html,R: Spreadsheet Interface for Entering Data
 help/library/base/html/save.html,R: Save R Objects
@@ -11,5 +10,6 @@ help/library/base/html/lapply.html,R: Apply a Function over a List or Vector
 help/doc/home/,Home
 help/doc/manual/R-intro.html,An Introduction to R
 help/library/graphics/html/barplot.html,R: Bar Plots
-help/doc/html/Search?results=1,R: Search Results
 help/library/graphics/html/pie.html,R: Pie Charts
+help/library/data.table/html/fread.html,R: Fast and friendly file finagler
+help/doc/html/Search?results=1,R: Search Results
