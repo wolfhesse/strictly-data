@@ -915,3 +915,216 @@
 1480353938941:ujnclass(dt)
 1480353942713:unclass(dt)
 1480356081851:xxxxxxxxxxxxzzzzzzzzzzzzzzzzzzzxxzzzzzzzzzzzzzcxxxxxxxxxxxxxxxxx
+1480401086376:csod$cities
+1480401112097:CitiesF
+1480401161567:csod$CitiesF
+1480401871390:row.names(csod$TopicTable)
+1480402668142:tt$text=getURL(tt$url)
+1480402678783:library("RJSONIO")
+1480402678865:library("RCurl")
+1480402679389:tt=c()
+1480402679391:tt$text=tt$eins=tt$topics=tt$docs=c()
+1480402679394:tt$url.orig="http://service.yasssu.com/proxy_topic/?hitzewelle"
+1480402679396:tt$url='http://192.168.0.15:5984/sim_topics/573c235a53053810c366ac0166000b6d'
+1480402679400:tt$text=getURL(tt$url)
+1480402679444:tt$eins=fromJSON(tt$text)
+1480402679458:tt$docs=tt$eins$response$docs
+1480402679460:for(doc in tt$docs[]) tt$topics=append(tt$topics,doc$topics)
+1480402679462:tt$stopics=sort(tt$topics)
+1480402679465:tt$TopicDataFrame = data.frame(tt$topics=tt$stopics)
+1480402679467:tt$TopicTable = table(tt$TopicDataFrame)
+1480402679470:barplot(sort(tt$TopicTable,decreasing=TRUE)[1:20],horiz=TRUE,cex.names=.45, cex.axis=.2,las=1)
+1480402794294:library("RJSONIO")
+1480402794298:library("RCurl")
+1480402794304:tt=c()
+1480402794307:tt$text=tt$eins=tt$topics=tt$docs=c()
+1480402794310:tt$url.orig="http://service.yasssu.com/proxy_topic/?hitzewelle"
+1480402794312:tt$url='http://192.168.0.15:5984/sim_topics/573c235a53053810c366ac0166000b6d'
+1480402794316:tt$text=getURL(tt$url)
+1480402794328:tt$eins=fromJSON(tt$text)
+1480402794332:tt$docs=tt$eins$response$docs
+1480402794334:for(doc in tt$docs[]) tt$topics=append(tt$topics,doc$topics)
+1480402794337:tt$stopics=sort(tt$topics)
+1480402794340:tt$TopicDataFrame = data.frame(tt$topics=tt$stopics)
+1480402794341:tt$TopicTable = table(tt$TopicDataFrame)
+1480402794344:barplot(sort(tt$TopicTable,decreasing=TRUE)[1:20],horiz=TRUE,cex.names=.45, cex.axis=.2,las=1)
+1480402943080:library("RJSONIO")
+1480402943084:library("RCurl")
+1480402943088:tt=c()
+1480402943090:tt$text=tt$eins=tt$topics=tt$docs=c()
+1480402943093:tt$url.orig="http://service.yasssu.com/proxy_topic/?hitzewelle"
+1480402943096:tt$url='http://192.168.0.15:5984/sim_topics/573c235a53053810c366ac0166000b6d'
+1480402943099:tt$text=getURL(tt$url)
+1480402943110:tt$eins=fromJSON(tt$text)
+1480402943114:tt$docs=tt$eins$response$docs
+1480402943117:for(doc in tt$docs[]) tt$topics=append(tt$topics,doc$topics)
+1480402943119:tt$stopics=sort(tt$topics)
+1480402943121:tt$TopicDataFrame = data.frame(tt$topics=tt$stopics)
+1480402943123:tt$TopicTable = table(tt$TopicDataFrame)
+1480402943126:barplot(sort(tt$TopicTable,decreasing=TRUE)[1:20],horiz=TRUE,cex.names=.45, cex.axis=.2,las=1)
+1480402968389:library("RJSONIO")
+1480402968394:library("RCurl")
+1480402968400:tt=c()
+1480402968402:tt$text=tt$eins=tt$topics=tt$docs=c()
+1480402968406:tt$url.orig="http://service.yasssu.com/proxy_topic/?hitzewelle"
+1480402968408:tt$url='http://192.168.0.15:5984/sim_topics/573c235a53053810c366ac0166000b6d'
+1480402968411:tt$text=getURL(tt$url)
+1480402968423:tt$eins=fromJSON(tt$text)
+1480402968427:tt$docs=tt$eins$response$docs
+1480402968429:for(doc in tt$docs[]) tt$topics=append(tt$topics,doc$topics)
+1480402968431:tt$stopics=sort(tt$topics)
+1480402968434:tt$TopicDataFrame = data.frame(tt$topics=tt$stopics)
+1480402968435:tt$TopicTable = table(tt$TopicDataFrame)
+1480402968438:barplot(sort(tt$TopicTable,decreasing=TRUE)[1:20],horiz=TRUE,cex.names=.45, cex.axis=.2,las=1)
+1480402982916:library("RJSONIO")
+1480402982918:library("RCurl")
+1480402982923:tt=c()
+1480402982925:tt$text=tt$eins=tt$topics=tt$docs=c()
+1480402982929:tt$url.orig="http://service.yasssu.com/proxy_topic/?hitzewelle"
+1480402982931:tt$url='http://192.168.0.15:5984/sim_topics/573c235a53053810c366ac0166000b6d'
+1480402982934:tt$text=getURL(tt$url)
+1480402982946:tt$eins=fromJSON(tt$text)
+1480402982950:tt$docs=tt$eins$response$docs
+1480402982952:for(doc in tt$docs[]) tt$topics=append(tt$topics,doc$topics)
+1480402982955:tt$stopics=sort(tt$topics)
+1480402982957:tt$TopicDataFrame = data.frame(tt$topics=tt$stopics)
+1480402982959:tt$TopicTable = table(tt$TopicDataFrame)
+1480402982962:barplot(sort(tt$TopicTable,decreasing=TRUE)[1:20],horiz=TRUE,cex.names=.45, cex.axis=.2,las=1)
+1480403011276:library("RJSONIO")
+1480403011280:library("RCurl")
+1480403011285:tt=c()
+1480403011288:tt$text=tt$eins=tt$topics=tt$docs=c()
+1480403011291:tt$url.orig="http://service.yasssu.com/proxy_topic/?hitzewelle"
+1480403011294:tt$url='http://192.168.0.15:5984/sim_topics/573c235a53053810c366ac0166000b6d'
+1480403011297:tt$text=getURL(tt$url)
+1480403011308:tt$eins=fromJSON(tt$text)
+1480403011312:tt$docs=tt$eins$response$docs
+1480403011315:for(doc in tt$docs[]) tt$topics=append(tt$topics,doc$topics)
+1480403011317:tt$stopics=sort(tt$topics)
+1480403011319:tt$TopicDataFrame = data.frame(tt$topics=tt$stopics)
+1480403011321:tt$TopicTable = table(tt$TopicDataFrame)
+1480403011324:barplot(sort(tt$TopicTable,decreasing=TRUE)[1:20],horiz=TRUE,cex.names=.45, cex.axis=.2,las=1)
+1480403245241:library("RJSONIO")
+1480403245330:library("RCurl")
+1480403245815:tt=c()
+1480403245817:tt$text=tt$eins=tt$topics=tt$docs=c()
+1480403245821:tt$url.orig="http://service.yasssu.com/proxy_topic/?hitzewelle"
+1480403245823:tt$url='http://192.168.0.15:5984/sim_topics/573c235a53053810c366ac0166000b6d'
+1480403245826:tt$text=getURL(tt$url)
+1480403245843:tt$eins=fromJSON(tt$text)
+1480403245848:tt$docs=tt$eins$response$docs
+1480403245851:for(doc in tt$docs[]) tt$topics=append(tt$topics,doc$topics)
+1480403245853:tt$stopics=sort(tt$topics)
+1480403245855:tt$TopicDataFrame = data.frame(tt$topics) #=tt$stopics)
+1480403245860:tt$TopicTable = table(tt$TopicDataFrame)
+1480403245863:barplot(sort(tt$TopicTable,decreasing=TRUE)[1:20],horiz=TRUE,cex.names=.45, cex.axis=.2,las=1)
+1480403294623:library("RJSONIO")
+1480403294628:library("RCurl")
+1480403294633:tt=c()
+1480403294636:tt$text=tt$eins=tt$topics=tt$docs=c()
+1480403294639:tt$url.orig="http://service.yasssu.com/proxy_topic/?hitzewelle"
+1480403294641:tt$url='http://192.168.0.15:5984/sim_topics/573c235a53053810c366ac0166000b6d'
+1480403294644:tt$text=getURL(tt$url)
+1480403294656:tt$eins=fromJSON(tt$text)
+1480403294660:tt$docs=tt$eins$response$docs
+1480403294662:for(doc in tt$docs[]) tt$topics=append(tt$topics,doc$topics)
+1480403294664:tt$stopics=sort(tt$topics)
+1480403294667:tt$TopicDataFrame = data.frame(tt$topics) #=tt$stopics)
+1480403294670:tt$TopicTable = table(tt$TopicDataFrame)
+1480403294673:barplot(sort(tt$TopicTable,decreasing=TRUE)[1:20],horiz=TRUE,cex.names=.45, cex.axis=.2,las=1)
+1480403405537:library("RJSONIO")
+1480403405546:library("RCurl")
+1480403405551:tt=c()
+1480403405553:tt$text=tt$eins=tt$topics=tt$docs=c()
+1480403405556:tt$url.orig="http://service.yasssu.com/proxy_topic/?hitzewelle"
+1480403405558:tt$url='http://192.168.0.15:5984/sim_topics/573c235a53053810c366ac0166000b6d'
+1480403405562:tt$text=getURL(tt$url)
+1480403405573:tt$eins=fromJSON(tt$text)
+1480403405577:tt$docs=tt$eins$response$docs
+1480403405579:for(doc in tt$docs[]) tt$topics=append(tt$topics,doc$topics)
+1480403405582:tt$stopics=sort(tt$topics)
+1480403405584:df.TopicDataFrame = data.frame(tt$topics) #=tt$stopics)
+1480403405588:dt.TopicTable = table(df.TopicDataFrame)
+1480403405590:barplot(sort(dt.TopicTable,decreasing=TRUE)[1:20],horiz=TRUE,cex.names=.45, cex.axis=.2,las=1)
+1480403407991:library("RJSONIO")
+1480403407996:library("RCurl")
+1480403408007:tt=c()
+1480403408009:tt$text=tt$eins=tt$topics=tt$docs=c()
+1480403408013:tt$url.orig="http://service.yasssu.com/proxy_topic/?hitzewelle"
+1480403408015:tt$url='http://192.168.0.15:5984/sim_topics/573c235a53053810c366ac0166000b6d'
+1480403408018:tt$text=getURL(tt$url)
+1480403408030:tt$eins=fromJSON(tt$text)
+1480403408034:tt$docs=tt$eins$response$docs
+1480403408036:for(doc in tt$docs[]) tt$topics=append(tt$topics,doc$topics)
+1480403408039:tt$stopics=sort(tt$topics)
+1480403408041:df.TopicDataFrame = data.frame(tt$topics) #=tt$stopics)
+1480403408044:dt.TopicTable = table(df.TopicDataFrame)
+1480403408047:barplot(sort(dt.TopicTable,decreasing=TRUE)[1:20],horiz=TRUE,cex.names=.45, cex.axis=.2,las=1)
+1480403464598:library("RJSONIO")
+1480403464601:library("RCurl")
+1480403464604:tt=c()
+1480403464607:tt$text=tt$eins=tt$topics=tt$docs=c()
+1480403464610:tt$url.orig="http://service.yasssu.com/proxy_topic/?hitzewelle"
+1480403464612:tt$url='http://192.168.0.15:5984/sim_topics/573c235a53053810c366ac0166000b6d'
+1480403464616:tt$text=getURL(tt$url)
+1480403464627:tt$eins=fromJSON(tt$text)
+1480403464631:tt$docs=tt$eins$response$docs
+1480403464633:for(doc in tt$docs[]) tt$topics=append(tt$topics,doc$topics)
+1480403464636:tt$stopics=sort(tt$topics)
+1480403464638:df.TopicDataFrame = data.frame(topics=tt$stopics)
+1480403464641:dt.TopicTable = table(df.TopicDataFrame)
+1480403464644:barplot(sort(dt.TopicTable,decreasing=TRUE)[1:20],horiz=TRUE,cex.names=.45, cex.axis=.2,las=1)
+1480403473606:View(df.TopicDataFrame)
+1480403540749:df.TopicDataFrame = data.frame(tt$stopics)
+1480403555622:df.TopicDataFrame = data.frame(topics=tt$stopics)
+1480403556781:dt.TopicTable = table(df.TopicDataFrame)
+1480403582634:dt.TopicTable = table(df.TopicDataFrame)
+1480403584508:barplot(sort(dt.TopicTable,decreasing=TRUE)[1:20],horiz=TRUE,cex.names=.45, cex.axis=.2,las=1)
+1480403601641:barplot(sort(dt.TopicTable,decreasing=TRUE)[1:5],horiz=TRUE,cex.names=.45, cex.axis=.2,las=1)
+1480403619732:barplot(sort(dt.TopicTable,decreasing=TRUE)[1:5],horiz=TRUE,cex.names=.45, cex.axis=.2,las=1)
+1480403671450:library("RJSONIO")
+1480403671455:library("RCurl")
+1480403671460:tt=c()
+1480403671463:tt$text=tt$eins=tt$topics=tt$docs=c()
+1480403671467:tt$url.orig="http://service.yasssu.com/proxy_topic/?hitzewelle"
+1480403671470:tt$url='http://192.168.0.15:5984/sim_topics/573c235a53053810c366ac0166000b6d'
+1480403671474:tt$text=getURL(tt$url)
+1480403671486:tt$eins=fromJSON(tt$text)
+1480403671490:tt$docs=tt$eins$response$docs
+1480403671492:for(doc in tt$docs[]) tt$topics=append(tt$topics,doc$topics)
+1480403671494:tt$stopics=sort(tt$topics)
+1480403671497:df.TopicDataFrame = data.frame(topics=tt$stopics)
+1480403671500:dt.TopicTable = table(df.TopicDataFrame)
+1480403671504:barplot(sort(dt.TopicTable,decreasing=TRUE)[1:5],horiz=TRUE,cex.names=.45, cex.axis=.2,las=1)
+1480403688857:dt.TopicTable = data.table(df.TopicDataFrame)
+1480403698376:dt.TopicTable = table(df.TopicDataFrame)
+1480403721115:tt$TopicTable = table(df.TopicDataFrame)
+1480403721826:barplot(sort(tt$TopicTable,decreasing=TRUE)[1:5],horiz=TRUE,cex.names=.45, cex.axis=.2,las=1)
+1480403734632:rm(dt.TopicTable)
+1480403745665:rm(topics)
+1480403835901:rm(wurfserie.1,wurfserie.2,wurfserie.3)
+1480403846862:View(df.TopicDataFrame)
+1480403869354:source('~/rel.r.d/r20130724.1.R')
+1480403933491:source('~/rel.r.d/r20130724.1.R')
+1480403991738:source('~/rel.r.d/r20130724.1.R')
+1480404003323:source('~/rel.r.d/r20130724.1.R')
+1480404024449:source('~/rel.r.d/r20130724.1.R')
+1480404060049:save.image("~/all.RData")
+1480404069278:source('~/rel.r.d/r20130724.1.R')
+1480404137652:sort(tt$TopicTable,decreasing=TRUE)[1:5]
+1480404151962:sort(tt$TopicTable,decreasing=TRUE)[1:15]
+1480404158610:sort(tt$TopicTable,decreasing=TRUE)[1:3]
+1480404166757:barplot(sort(tt$TopicTable,decreasing=TRUE)[1:3],horiz=TRUE,cex.names=.45, cex.axis=.2,las=1)
+1480404189647:?barplot
+1480404251947:barplot(sort(tt$TopicTable,decreasing=TRUE)[1:3],horiz=TRUE,cex.names=.45, cex.axis=.2)
+1480404265878:barplot(sort(tt$TopicTable,decreasing=TRUE)[1:3],horiz=TRUE,cex.names=.45, cex.axis=.2)
+1480404283092:barplot(sort(tt$TopicTable,decreasing=TRUE)[1:5],horiz=TRUE,cex.names=.45, cex.axis=.2)
+1480404312061:barplot(sort(tt$TopicTable,decreasing=TRUE)[1:5],horiz=FALSE,cex.names=.45, cex.axis=.2)
+1480404353330:source('~/rel.r.d/r20130724.1.R')
+1480404369639:source('~/rel.r.d/r20130724.1.R')
+1480404411291:source('~/rel.r.d/r20130724.1.R')
+1480404467092:??piechart
+1480404493321:pie(tt$TopicTable)
+1480404527112:source('~/rel.r.d/r20130724.1.R')
+1480404542981:source('~/rel.r.d/r20130724.1.R')
+1480405096234:source('~/rel.r.d/r20130724.1.R')

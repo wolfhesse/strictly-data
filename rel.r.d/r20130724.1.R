@@ -1,12 +1,24 @@
 
-library("RJSONIO", lib.loc="/home/alpha/R/i686-pc-linux-gnu-library/2.15")
-library("RCurl", lib.loc="/home/alpha/R/i686-pc-linux-gnu-library/2.15")
-text=eins=topics=docs=c()
-text=getURL("http://service.yasssu.com/proxy_topic/?hitzewelle")
-eins=fromJSON(text)
-docs=eins$response$docs
-for(doc in docs[]) topics=append(topics,doc$topics)
-stopics=sort(topics)
-TopicDataFrame = data.frame(topics=stopics)
-TopicTable = table(TopicDataFrame)
-barplot(sort(TopicTable,decreasing=TRUE)[1:20],horiz=TRUE,cex.names=.45, cex.axis=.2,las=1)
+library("RJSONIO")
+library("RCurl")
+rm(tt)
+tt=c()
+tt$text=tt$eins=tt$topics=tt$docs=c()
+
+tt$url.orig="http://service.yasssu.com/proxy_topic/?hitzewelle"
+tt$url='http://192.168.0.15:5984/sim_topics/573c235a53053810c366ac0166000b6d'
+
+tt$text=getURL(tt$url)
+
+tt$eins=fromJSON(tt$text)
+
+
+tt$docs=tt$eins$response$docs
+for(tmp.doc in tt$docs[]) tt$topics=append(tt$topics,tmp.doc$topics)
+tt$stopics=sort(tt$topics)
+df.TopicDataFrame = data.frame(topics=tt$stopics)
+tt$TopicTable = table(df.TopicDataFrame)
+
+barplot(sort(tt$TopicTable,decreasing=TRUE)[1:10],horiz=FALSE,cex.names=.45, cex.axis=.2)
+
+pie(tt$TopicTable)

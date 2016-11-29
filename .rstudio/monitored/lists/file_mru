@@ -1,3 +1,8 @@
+~/rel.r.d/r20130724.1.R
+~/rel.r.d/r20130725.1.mongostuff.R
+~/rel.r.d/r20130725.blippex.mongo.R
+~/rel.r.d/r20130725.2.cities.R
+~/rel.r.d/roots.su.lst
 ~/r.fn.lib.r20161128.R
 ~/r20130726.004.bench.R
 ~/urlpattern.R
@@ -8,8 +13,3 @@
 ~/r20130726.tags.readme.Rmd
 ~/r20130726.100.tasks.Rmd
 ~/doc.html
-~/.gitignore
-~/rel.r.d/r20130724.1.html
-~/rel.r.d/r20130724.1.R
-~/rel.r.d/r20130725.blippex.mongo.R
-~/rel.r.d/r20130725.2.cities.R
