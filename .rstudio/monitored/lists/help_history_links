@@ -1,4 +1,3 @@
-help/library/base/html/array.html,R: Multi-way Arrays
 help/library/base/html/dimnames.html,R: Dimnames of an Object
 help/library/base/html/lapply.html,R: Apply a Function over a List or Vector
 help/doc/home/,Home
@@ -12,4 +11,5 @@ help/library/base/html/readLines.html,R: Read Text Lines from a Connection
 help/library/base/html/connections.html,"R: Functions to Manipulate Connections (Files, URLs, ...)"
 help/library/RJSONIO/html/00Index.html,"R: Serialize R objects to JSON, JavaScript Object Notation"
 help/library/RJSONIO/html/fromJSON.html,R: Convert JSON content to R objects
+help/library/Rfacebook/html/getFriends.html,R: Extract list of friends with their information
 help/doc/html/Search?results=1,R: Search Results

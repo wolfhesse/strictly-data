@@ -1458,3 +1458,61 @@
 1480419957235:library('rethinker')
 1480419962678:cn=d0()
 1480419973938:sapply(s1$products,d4)
+1480426452993:source('~/rel.r.d/r20130724.1.R')
+1480492720482:summary(cars)
+1480492720546:plot(cars)
+1480500727165:library(readr)
+1480500727206:r20130725_ds_uri_1 <- read_csv("~/baseline.d/r20130725.ds.uri.1.csv")
+1480500727317:View(r20130725_ds_uri_1)
+1480509582601:sort(sample.int(13,12))
+1480509582628:summary(sort(sample.int(100,99)))
+1480509660232:summary(cars)
+1480509660286:plot(cars)
+1480510522431:install.packages("Rfacebook")
+1480510575805:library(Rfacebook)
+1480510669401:token<-'EAACEdEose0cBADxRPYfZAedyiIUXSEf44jblSYXfe74L854NfJq3KIZAy25MFOHDtw7q30YcUYlLxRP6jjBVuAc8zZCdWuEQFyVlhIRF0lq36VUl3jOHZBrq8ucXDmweQN9DxnPbOhskrDoxCXU2egjw7tixZAmgWPBaS2bBVYgZDZD'
+1480510685156:me <- getUsers("me", token, private_info=TRUE)
+1480510688929:View(me)
+1480510740476:me
+1480510753256:levels(me)
+1480510758998:summary(me)
+1480510769335:names(me)
+1480510776212:me$first_name
+1480510799169:xsample=getUsers(c("barackobama", "donaldtrump"), token)
+1480510805814:View(xsample)
+1480510861993:my_friends <- getFriends(token, simplify = TRUE)
+1480510878949:?getFriends
+1480510906301:my_friends<-getFriends(token)
+1480510970876:ase_token='102312194482|76CNsceYV-O5VZVMHvqn0_YHjo4'
+1480510976040:my_friends<-getFriends(ase_token)
+1480511130124:ase_token='EAAAAF9JIMbIBAIOcug7Mk1pJ4TYyT2muxOOZBrYDcE0om1ZAeNZAHmzZBOxbUTOzJqyDpGj2ZAQRwAfJx4lB7lZAb0iER8yhKZC66OJykFGPpRjksZBQJZAOum9YCerK95ZCkXdkIVlPJZChPelv5djmvtu525fKPlapdRlPrkNjzPfggZDZD'
+1480511133955:my_friends<-getFriends(ase_token)
+1480511310983:bd_token='EAAAAD9PtWewBAD5AG5yD20xZCi9ZBBP6H0X8OQ4u5V24XS1eas2q99woN8TX53HvHEaUhjZBX7fVQYyZCIsnUcOrf6ZBLZA2DoqdrrYuoYh11eoynxhcM7qADZAIJOtZCKCkFncTZBhZBJ1ZBQbkB6ZC1jZA0qJVNnyRCycZCt5mtVZBcsz1wZDZD'
+1480511316831:my_friends<-getFriends(bd_token)
+1480511326104:View(my_friends)
+1480511720025:sac_token='EAAAAH8imqywBAEP5mG5dtt35bZCnTX4Mi2SZAD2rRMJTNshPJ6uTF0OGHFOhlH9aU0DkvqUDohxjNUJpm2I2fdc7Jddbx87Ca2XCOXrZCoUvwszBpOWqtM47zGuYHmWSRPqeHJrV8bG6dGib7hmkIGMhjnwGZAigQ8xrqH7FXAZDZD'
+1480511727277:my_friends<-getFriends(sac_token)
+1480511819783:ctoken=c()
+1480511828991:ctoken$ase_token=ase_token
+1480511840856:ctoken$bd_token=bd_token
+1480511857833:ctoken$sac_token=sac_token
+1480511885911:save(ctoken,'data.d/ctoken')
+1480511900653:save(ctoken,'data.d/ctoken.rdata')
+1480511919744:save(ctoken)
+1480511929474:save(ctoken,file='data.d/ctoken')
+1480511959153:load("~/data.d/ctoken.RData")
+1481617836261:library(Rfacebook)
+1481617844044:source('~/r20161130.tinker.rfacebook.R')
+1481815887890:1
+1481815941835:2
+1481816040338:View(xsample)
+1481816067328:View(r20130725_ds_uri_1)
+1481816071680:View(r20130725.ds.uri.1)
+1481816078382:View(my_friends)
+1481816084752:View(df.TopicDataFrame)
+1481816153642:??mongo
+1481816225914:install.packages("mongolite")
+1481816271561:install.packages(c("colorspace", "data.table", "slam"))
+1481816460794:source('~/rel.r.d/r20130725.1.mongostuff.R')
+1481816508564:install.packages("mongolite")
+1481816743182:install.packages("RMongo")
