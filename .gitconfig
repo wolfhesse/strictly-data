@@ -1,3 +1,19 @@
 [user]
-	name = wolfhesse
-	email = wolfhesse@gmail.com
+	name = rogera
+	email = wolfgang.schuessel@gmail.com
+[push]
+	default = current
+[receive]
+	denyCurrentBranch = ignore
+[core]
+	autocrlf = input
+	excludesfile = /home/rogera/.gitignore_global
+[alias]
+	ci = commit
+	co = checkout
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	graphviz = "!f() { echo 'digraph git {' ; git log --pretty='format:  %h -> { %p }' \"$@\" | sed 's/[0-9a-f][0-9a-f]*/\"&\"/g' ; echo '}'; }; f"
+[hub]
+	username = wolfhesse
+	oauthtoken = 5efb2998caf182be0458ea4dd516da407a0e539d
+
