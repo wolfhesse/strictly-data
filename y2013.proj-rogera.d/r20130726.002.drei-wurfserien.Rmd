@@ -1,0 +1,20 @@
+3 wurfserien
+========================================================
+
+```{r fig.width=8, fig.height=4}
+wurfserie.1=sample(cbind(x=1,y=1:6),10,replace=TRUE)
+print(wurfserie.1)
+summary(wurfserie.1)
+```
+
+```{r fig.width=8, fig.height=4}
+wurfserie.2=sample(cbind(x=1,y=1:6),10,replace = TRUE)
+wurfserie.3=sample(cbind(x=1,y=1:6),150, replace = TRUE)
+
+wurfserien=data.frame(wurfserie.1,wurfserie.2,wurfserie.3)
+summary(wurfserien)
+
+plot(wurfserie.1)
+plot(wurfserien)
+```
+
