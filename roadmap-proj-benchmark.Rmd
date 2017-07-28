@@ -1,6 +1,9 @@
 ---
 title: "roadmap-doc proj-benchmark"
-output: html_notebook
+output: 
+  pdf_document: 
+    number_sections: yes
+    toc: yes
 ---
 
 ```{ruby}
