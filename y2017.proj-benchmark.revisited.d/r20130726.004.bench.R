@@ -14,8 +14,8 @@ b.y <- function() unlist(by(df$x, df$index, function(x){x/sum(x)}))
 agg <- function() aggregate(df$x, list(df$index), function(x){x/sum(x)})
 d.t <- function() dt[, x/sum(x), by = index]
 
-benchmark(plyr(), av(), t.apply(), l.apply(), b.y(), agg(), d.t(),
+res <- benchmark(plyr(), av(), t.apply(), l.apply(), b.y(), agg(), d.t(),
           replications = 100,
           columns = c("test", "elapsed", "relative"),
           order = "elapsed")
-
+plot(res)
