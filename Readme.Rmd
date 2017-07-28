@@ -1,8 +1,35 @@
 ---
 title: "R Notebook"
-output: html_notebook
+output: word_document
 ---
 
+## csect: proj-baseline
+
+    on-entry: open _scratchpad (.tactcal)
+    ensure that required packages are installed
+    
+    per-machine .baseline (_future, use package manager)
+
+```{r proj-baseline-info-sect}
+source('./y2013.proj-baseline.d/_info.R')
+
+```
+
+## csect: proj-blippex
+
+
+
+## csect: proj-rogera
+
+    insert data into rethinkdb (curr: s0)
+    fetch facebook profile data (needs: fresh token; externalize tok)
+
+## csect: proj-benchmark (revisited)
+
+
+
+---
+## attic
 Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
 
 Press *Ctrl+Alt+R* to run all.
