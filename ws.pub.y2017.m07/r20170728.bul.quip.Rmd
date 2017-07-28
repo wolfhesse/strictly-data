@@ -1,0 +1,68 @@
+---
+title: "pilz, kpoe, slp"
+output: 
+  pdf_document: 
+    number_sections: yes
+    toc: yes
+  html_notebook: 
+    toc: yes
+  html_document: 
+    toc: yes
+  word_document: 
+    toc: yes
+---
+
+ref: quip:team.bul/bul.2017.q3/, https://quip.com/NkB5ADKecCrP
+
+---
+# bul mechanismus am beispiel
+
+pilz oder kpoe+ ? oder slp? .. die is fringe.
+
+## einleitend
+
+
+marktmechanismen abzulehnen ist lieb, nur leider gilt mathematik
+
+thermodynamische prinzipien → {missing-link, hypothetisch} → marktmechanismus
+
+was ist der marktmechanismus? attraktivitaet, modernste interpretation ist der 'relevante diskurs'
+
+man kann nicht nicht-marktmechanisch arbeiten; man kann nur versuchen, den optimalen weg zu beschreiten
+
+* * *
+
+## struktur und folgewirkung
+
+fuer die identifikation der 'relevanten diskurse', die politisch wirksam sind, ist es guenstig, selbstorganisierende strukturen aufzubauen. diese strukturen haben zwei aufgaben: die eigentliche veraenderung herbeizufuehren, und ihre eigene struktur als relevanten diskurs sichtbar planvoll zu machen (sonst ist die noetige reife nicht erreicht)
+
+* * *
+
+## math
+
+der 'seltsame attraktor'  —<  in einer politisch-informationstechnischen interpretation bedeutet das 'revolution'.. sehr viel aenderung in sehr kurzer zeit. lokal herrscht unuebersichtlichkeit, ueberforderung, chaos. 
+
+bul-ziel ist das gegenteil davon: wir wollen niemanden und nichts ins chaos stuerzen. also darf die attraktivitaet nicht im 'seltsamen' bereich liegen. es geht nicht um umsturz, sondern aufbau und umbau
+
+* * *
+
+## fallunterscheidung
+
+
+pilz *wirkt* als seltsamer attraktor ... das ist soweit gut, soweit er publiziert, welche themenschwerpunkte er setzt. 
+
+kpoe+ *will* einen strukturaufbau angehen, das ist ihr erklaertes ziel. natuerlich haben die bei der wahl keine grossen chancen, aber das ist wohlverstanden, es geht um die publizitaet.. wahlkampf heisst ja, fuer andere leute die moeglichkeit zu bieten in einen relevanten diskurs einzusteigen
+
+slp: will ebenfalls eine struktur aufbauen, und das schon sehr lange. aber ohne 'selbstkritik-faehigkeit', weil man in einem theorie-deadlock steckt, sieht das natuerlich nicht besonders erfolgversprechend aus
+
+* * *
+
+## fazit
+
+
+was kann kpoe+ gut machen? die eigene strukturentwicklung dokumentieren, publizieren und diskutieren. die inhaltlichen aspekte sind zu komplex, und deshalb kann und muss man die der selbstorganisation ueberlassen. netze-von-netzen, die untereinander sehr schnell vereinbaren koennen, wen 'wir' waehlen, sind das eigentliche ziel - die wirksamkeit wird nachlaufenden effekten ueberlassen.
+
+derzeit wuerd ich davon ausgehen, dass eine sinnvolle struktur nicht vorhanden ist - und damit waers modern, das auch fuer *die eigene darstellung* zu verwenden, und eine wahlempfehlung fuer eine andere partei auszuarbeiten.
+
+* * *
+
