@@ -6,15 +6,22 @@ output:
     toc: yes
 ---
 
+## experimental:
+
+### this runs ruby! :)
+
 ```{ruby}
-_future.expand: drei-backtick
-_future.expand: klammer-ruby
-belongs_to :branch => :master
-_future.expand: drei-backtick
+  #_future.expand: drei-backtick
+  #_future.expand: klammer-ruby
+  print("belongs_to :branch => :master")
+  #_future.expand: drei-backtick
 ```
+
 ---
 
-### strategy:
+## strategy:
+
+### processing
 
     switch to branch master
     include y2017.proj-benchmark.revisited.d libraries
@@ -23,7 +30,11 @@ _future.expand: drei-backtick
   
 ---
 
-### tactics:
+## tactics:
+
+### some code
+
+.here:
 
     res <- benchmark(plyr(), av(), t.apply(), l.apply(), b.y(), agg(), d.t(),
               replications = 100,
@@ -32,15 +43,24 @@ _future.expand: drei-backtick
     plot(res)
 
 
-### durchfuehrung:
+## durchfuehrung:
+
+### plot something from benchmark
+
+data is from project
+
 
 ```{r}
 
 source('./y2017.proj-benchmark.revisited.d/r20130726.004.bench.R')
     
 ```
+
 ---
-#### original stub :hist
+
+## original
+
+### stub :hist
 
     This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
     
