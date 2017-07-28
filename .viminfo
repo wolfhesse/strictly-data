@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :q
-|2,0,1501238074,,"q"
+|2,0,1501238459,,"q"
 :q!
 |2,0,1501237210,,"q!"
 
@@ -28,11 +28,17 @@
 
 # File marks:
 '0  1  0  ~/.gitignore
-|4,48,1,0,1501238074,"~/.gitignore"
+|4,48,1,0,1501238459,"~/.gitignore"
 '1  1  0  ~/.gitignore
-|4,49,1,0,1501237210,"~/.gitignore"
+|4,49,1,0,1501238074,"~/.gitignore"
+'2  1  0  ~/.gitignore
+|4,50,1,0,1501237210,"~/.gitignore"
+'3  1  0  ~/.gitignore
+|4,51,1,0,1501237210,"~/.gitignore"
 
 # Jumplist (newest first):
+-'  1  0  ~/.gitignore
+|4,39,1,0,1501238459,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1501238074,"~/.gitignore"
 -'  1  0  ~/.gitignore
@@ -41,5 +47,5 @@
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1501238072	0
+	*	1501238456	0
 	"	1	0
