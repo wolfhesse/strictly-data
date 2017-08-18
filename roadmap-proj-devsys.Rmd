@@ -1,0 +1,42 @@
+---
+title: "Roadmap proj-devsys"
+output: 
+  pdf_document: 
+    number_sections: yes
+    toc: yes
+---
+
+  
+## dokumentation map system-names :symbolic to runtime systems 
+
+    (virtualized) || (subsystem software                ||  (symbolized)   ||  
+                        package/components)
+    
+    
+    s0:8000      || ase-sms-back                        || sms-back-dev.base.wolfspool.at
+    s1:8002      || falcon server /notes -> rethinkdb   || rcs2_wc.webhooks.devsys.wolfspool.at
+    
+
+
+
+
+### webhooks in woocommerce:
+
+    table: wp_post_meta
+    filter: meta_key='_delivery_url'
+  
+
+
+### devsys rcs2 prototyping & interactive sessions:
+
+#### system access point:
+
+    host: rcs2_wc.webhooks.devsys.base.wolfspool.at
+    path: /notes
+
+      mapped in nginx/default
+      to s1:8002
+      running Falcon Server
+      in virtualenv.d/env_pypy
+
+  
