@@ -1,11 +1,38 @@
 ---
 title: "Roadmap proj-devsys"
-output: 
-  pdf_document: 
+output:
+  pdf_document:
     number_sections: yes
+    toc: yes
+  html_document:
     toc: yes
 ---
 
+### adapter / facade
+
+  systems :: subsystems
+
+    configured standard software
+    facade: api front, api back
+
+  front-api types:
+
+    KATALOG
+    KONTAKT
+    
+  project specific:
+
+    TEAM
+    VERTRIEB (specific configuration: assembly)
+    MULTISHOP
+    LOGISITK
+    
+  management cockpit & administration
+
+    KENNZAHL
+    KONFIGURATOR
+    VERWALTUNG
+    
   
 ## dokumentation map system-names :symbolic to runtime systems 
 
