@@ -1,4 +1,13 @@
-exec 2>&1 1>>"${0%%.sh}.res"
+
+SCRIPT_HERE="${0%%.sh}"
+touch "$SCRIPT_HERE.res"
+
+# recurring pattern: mv "$SCRIPT_HERE.res" "$SCRIPT_HERE.res.old"
+cat "$SCRIPT_HERE.res" >> "$SCRIPT_HERE.res.old"
+cat /dev/null > "$SCRIPT_HERE.res"
+
+exec 2>&1 1>>"$SCRIPT_HERE.res"
+
 echo .anf
 
 echo 1 gruss
