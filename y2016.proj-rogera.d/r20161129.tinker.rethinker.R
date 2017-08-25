@@ -2,7 +2,7 @@
 library(rethinker)
 
 rethink_db_host = "rethinkdb.wolfspool.chickenkiller.com" # dep
-rethink_db_host = "base.wolfslab.local.wolfspool.at"      # .1 intern: deutschland
+rethink_db_host = "s0"      # .1 intern: deutschland
 # admin .here: http://base.wolfslab.local.wolfspool.at:18080/
 
 d0 <-
