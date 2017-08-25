@@ -24,3 +24,9 @@ Status: Image is up to date for wolfhesse/dotnetapp-sample:latest
   "PAT_RECORD": ".here"
 }
 .fin
+.anf
+.fin
+.anf
+.fin
+.anf
+.fin
