@@ -30,3 +30,5 @@ Status: Image is up to date for wolfhesse/dotnetapp-sample:latest
 .fin
 .anf
 .fin
+.anf
+.fin
