@@ -11,6 +11,7 @@ exec 2>&1 1>>"$SCRIPT_HERE.res"
 echo .anf
 
 echo 1 gruss
+uname -a
 
 echo 2 dates
 date
